@@ -9,7 +9,7 @@ function that eliminates leading and trailing spaces.
 */
 // --------------------------------------------------------------
 
-let first_name = " Chaudhari       ";
+let first_name = " i s h a n      ";
 
 // Spaces are even counted in String.length
 

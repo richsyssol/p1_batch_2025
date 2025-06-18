@@ -12,31 +12,31 @@
 let array_1=["item1","item2"];
 // let array_2 = array_1;
 let array_2=["item1","item2"];
-
+console.log(array_2)
 array_1.push("item3");
 
 console.log(array_1==array_2);
 console.log(array_1);
-console.log(array_2);
-
+// console.log(array_2);
 */
 
-/*
+
+
 // cloning with slice
 
 // fastest cloning method
 
-let array_1=["item1","item2"];
+let array_5=["item1","item2","item4","asdrasf"];
 // let array_2 = array_1;
-let array_2=array_1.slice(0)
+let array_6=array_5.slice(1,2)
 
-array_1.push("item3");
+array_5.push("item3");
 
-console.log(array_1==array_2);
-console.log(array_1);
-console.log(array_2);
+console.log(array_5==array_6);
+console.log(array_5);
+console.log(array_6);
 
-*/
+
 
 
 /*
@@ -70,6 +70,11 @@ console.log(array_1);
 console.log(array_2);
 
 */
+let array_1=["item1","item2","item3"];
+
+let array_2=[...array_1,"item5"];
+console.log(array_2);
+
 
 /*
 
@@ -94,11 +99,11 @@ console.log(array_2);
 */
 
 
-let array_1=["item1","item2"];
-let oneMore=["item3","item4"];
-let array_2=[...array_1,...oneMore,"item5"];
+// let array_1=["item1","item2"];
+// let oneMore=["item3","item4"];
+// let array_2=[...array_1,...oneMore,"item5"];
 
-array_1.push("item3");
-console.log(array_1==array_2);
-console.log(array_1);
-console.log(array_2);
+// array_1.push("item3");
+// console.log(array_1==array_2);
+// console.log(array_1);
+// console.log(array_2);
