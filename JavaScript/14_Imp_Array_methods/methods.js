@@ -28,3 +28,4 @@ const sqrnumber = numbers.map((number)=>{
 console.log(sqrnumber);
 */
 
+
