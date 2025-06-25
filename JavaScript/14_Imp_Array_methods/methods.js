@@ -16,6 +16,13 @@ const sqr = function (number){
 const sqrnumber = number.map(sqr);
 console.log(sqrnumber);
 
+const output3 = number.filter((a,b)=>{
+  return a % 2 == 0;
+  
+})
+console.log(output3);
+
+
 
 
 // we can also write it as

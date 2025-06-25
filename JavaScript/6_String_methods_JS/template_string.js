@@ -10,7 +10,7 @@ console.log(about_me);
 let lastName="Sneha Gaikwad";
 let collage="Met BKC";
 console.log("My name is" + lastName + "I am from "+collage);
-console.log(`My name is ${lastName} and i am from ${collage}`)
+console.log(`My name is ${lastName}  and i am from ${collage}`)
 // ---------------------------------------------------
 // other method
 // template strings 

@@ -149,7 +149,7 @@ console.log(var3);
 // console.log(var2);
 // console.log(var3);
 // console.log(newarr);
-
+''
 // Basic Destructing Array
 const myarr = ["value1","sss","value2"];
 

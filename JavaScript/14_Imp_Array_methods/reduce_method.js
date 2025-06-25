@@ -1,7 +1,7 @@
 // ###################### Reduce Method ###################
 
 
-/*
+
 // Reduce Method
 // Takes CallBack function as input
 
@@ -9,7 +9,11 @@ const numbers = [1,2,3,4,5,10];
 
 // Aim :  sum of all the numbers in array
 
-const total = numbers.reduce((accumulator,currentvalue)=>{
+const total = numbers.reduce((accumulator,currentvalue,currentindex,arr)=>{
+    console.log(accumulator);
+    console.log(currentvalue);
+    console.log(currentindex);
+    console.log(arr);
        return accumulator + currentvalue;
 });
 
@@ -22,7 +26,7 @@ console.log(total);
 //   10        ,       5           15
 //   15        ,       10          25
 
-*/
+
 
 // _----------------------------------------------------------------------------------------
 

@@ -14,6 +14,6 @@ if(age>=5){
 console.log(drink);
 
 let age1= 22;
-let drinkit = age >= 20 ? "Coffee" : "Milk";
+let drinkit = age1 >= 20 ? "Coffee" : "Milk";
 
 console.log(drinkit);

@@ -1,23 +1,23 @@
  
 
  // Root Node --> with help of getRootNode method
-// const rootNode = document.getRootNode();
-// console.log(rootNode); // document object
+const rootNode = document.getRootNode();
+console.log(rootNode); // document object
 // So, Root Node --> document Object 
 
 
 // Child Node of Root Node ---> with help of childNodes
-// const childOfRootNode = rootNode.childNodes;
-// console.log(childOfRootNode);  // NodeList [html]
+const childOfRootNode = rootNode.childNodes;
+console.log(childOfRootNode);  // NodeList [html]
 // So, child of Root Node --> gave Nodelist --> all child Nodes will be in it.
 // 0 : html --> child of Root Node.
 // fetching it
-// const htmlElementNode = rootNode.childNodes[0];
-// console.log(htmlElementNode);
+const htmlElementNode = rootNode.childNodes[1];
+console.log(htmlElementNode);
 
 // Now HtmlElementNode --> Root Element 
-// const htmlchildNodes = htmlElementNode.childNodes;
-// console.log(htmlchildNodes); // NodeList(3) [head, text, body]
+const htmlchildNodes = htmlElementNode.childNodes;
+console.log(htmlchildNodes); // NodeList(3) [head, text, body]
 
 // Child Nodes of HTML fetching them :
 
@@ -132,22 +132,22 @@ body.style.backgroundColor = "red";
 // -----------------------------------------------------------------
 // Use
 // We got head Element:
-const head = document.querySelector("head");
-console.log(head);
+// const head = document.querySelector("head");
+// console.log(head);
 
 //Then we can traverse all the child nodes and make changes:
 // In this Way :
-const headtitle = head.querySelector("title");
-console.log(headtitle);
-console.log(headtitle.childNodes);
-console.log(headtitle.nextElementSibling);
+// const headtitle = head.querySelector("title");
+// console.log(headtitle);
+// console.log(headtitle.childNodes);
+// console.log(headtitle.nextElementSibling);
 
 
 // When we Traverse through DOm we dont want text
 //  or Newline Space in it and directly get next Elements
 // So this is the way:
 
-const container = document.querySelector(".container");
-console.log(container);
-console.log(container.childNodes);
-console.log(container.children); // This is Way
+// const container = document.querySelector(".container");
+// console.log(container);
+// console.log(container.childNodes);
+// console.log(container.children); // This is Way

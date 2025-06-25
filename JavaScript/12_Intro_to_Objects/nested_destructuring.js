@@ -1,3 +1,8 @@
+
+
+
+
+
 // Nested Destructing
 
 
@@ -37,7 +42,7 @@ console.log(gender);
 
 
 // Assigning variable as well
-const[{user_name : user1_username,userid},,{gender:user3_gender}] = users;
+const[{user_name : user1_username,userid},{gender:user3_gender},,] = users;
 console.log(user1_username);
 console.log(user3_gender);
 console.log(userid);

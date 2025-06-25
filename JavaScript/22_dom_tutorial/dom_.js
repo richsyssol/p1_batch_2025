@@ -4,7 +4,7 @@
 // 1. OverView .
 // 2. How to use.
 // 3. depth case study.
-
+// console.log(window);
 console.log(window.document); // Human readable representation of JS
 console.dir(window.document); // JS Object what Browers See.
 
