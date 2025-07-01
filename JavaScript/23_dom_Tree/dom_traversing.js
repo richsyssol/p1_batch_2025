@@ -1,4 +1,4 @@
- 
+
 
  // Root Node --> with help of getRootNode method
 const rootNode = document.getRootNode();
@@ -12,7 +12,7 @@ console.log(childOfRootNode);  // NodeList [html]
 // So, child of Root Node --> gave Nodelist --> all child Nodes will be in it.
 // 0 : html --> child of Root Node.
 // fetching it
-const htmlElementNode = rootNode.childNodes[1];
+const htmlElementNode = rootNode.childNodes[0];
 console.log(htmlElementNode);
 
 // Now HtmlElementNode --> Root Element 

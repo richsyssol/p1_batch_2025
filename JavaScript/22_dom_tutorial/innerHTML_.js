@@ -25,5 +25,5 @@ console.log(headLine.innerHTML);
  as an HTML string. 2) You can also use it to set or change elements' innerHTML content.
 
 
- 
+ 9
 */
