@@ -34,9 +34,11 @@ async function getPosts(){
 
  const getPosts = async()=>{
     const response = await fetch(URL);
+    console.log(response);
     if(!response.ok){
       throw new Error("Something went Wrong!");
     }
+    
     const data =  await response.json();
     return data;
   }

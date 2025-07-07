@@ -11,7 +11,7 @@ inputboxB.addEventListener("keyup",(event)=>{
     valueB=Number(event.target.value);
     console.log(event.target.value)})
 const button=document.getElementById("add");
-
+[[[]]]
 button.addEventListener("click",()=>{
     alert(valueA+valueB)
 })

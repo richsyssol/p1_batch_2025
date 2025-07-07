@@ -1,6 +1,4 @@
 // set Interval
-
-/*
 console.log("start Script");
 
 setInterval(()=>{
@@ -8,7 +6,6 @@ setInterval(()=>{
 },1000);
 
 console.log("Script Ends");
-*/
 
 /*
 
