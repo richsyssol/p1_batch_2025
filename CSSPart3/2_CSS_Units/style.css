@@ -21,13 +21,13 @@ Relative Units
 
 html{
     /* font-size: 10px; */
-    font-size: 62.5%;
+    /* font-size: 20px; */
     /* 16px -->100% */
     /* 10px --->  100/16*10  */
 }
 
 .box1{
-    /* font-size: 2rem; */
+    font-size:10px;
 }
 
 /*
@@ -40,7 +40,7 @@ html{
 */
 
 .text-content{
-     font-size: 3rem; 
+     font-size: 2em; 
      border: 1rem solid red;
      margin: 0.5 rem;
      padding: 2.5rem;
