@@ -1,7 +1,7 @@
 username = "chaiaurcode"
 
 def func():
-    # username = "chai"
+     #username = "chai"
     print(username)
 
 print(username)
@@ -13,7 +13,7 @@ x = 99
 #     z = x + y
 #     return z
 
-# result = func2(1)
+# result = func2(1)dcm,JM
 # print(result)
 
 # def func3():
