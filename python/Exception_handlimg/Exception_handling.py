@@ -1,5 +1,5 @@
 try:
-    a=23
+    a=0
     b=100/a
     
 except ZeroDivisionError:
