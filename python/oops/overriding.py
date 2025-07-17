@@ -12,7 +12,7 @@ class Form2(Form1):
         super().__init__(name,id)
         self.m_no=m_no
 
-        def admission():
+        def admission(self):
             print(self.m_no)
 
 class Form3(Form1):
